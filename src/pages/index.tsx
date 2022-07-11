@@ -15,7 +15,7 @@ export default function HomePage() {
           <div className='layout flex min-h-screen flex-col items-center justify-center text-center'>
             <h1 className='mt-4'>Tanstack Table Examples</h1>
 
-            <ButtonLink className='mt-6' href='/basic-table' variant='light'>
+            <ButtonLink className='mt-6' href='/basic' variant='light'>
               Basic
             </ButtonLink>
 
