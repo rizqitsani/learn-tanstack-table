@@ -15,12 +15,19 @@ export default function HomePage() {
           <div className='layout flex min-h-screen flex-col items-center justify-center text-center'>
             <h1 className='mt-4'>Tanstack Table Examples</h1>
 
-            <div className='mt-6 flex flex-col space-y-3'>
+            <div className='mt-6 grid grid-cols-3 gap-3'>
+              {/* <div className='mt-6 flex flex-col space-y-3'> */}
               <ButtonLink href='/basic' variant='light'>
                 Basic
               </ButtonLink>
               <ButtonLink href='/sorting' variant='light'>
                 Sorting
+              </ButtonLink>
+              <ButtonLink href='/filter' variant='light'>
+                Filter
+              </ButtonLink>
+              <ButtonLink href='/pagination' variant='light'>
+                Pagination
               </ButtonLink>
             </div>
 

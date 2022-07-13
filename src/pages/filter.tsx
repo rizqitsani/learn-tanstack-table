@@ -10,7 +10,7 @@ import Seo from '@/components/Seo';
 import Table from '@/components/table/Table';
 import VerificationLabel from '@/components/VerificationLabel';
 
-export default function BasicTablePage() {
+export default function FilterTablePage() {
   const columns: ColumnDef<Student>[] = [
     {
       accessorKey: 'name',
@@ -26,7 +26,7 @@ export default function BasicTablePage() {
 
   return (
     <Layout>
-      <Seo templateTitle='Basic Table' />
+      <Seo templateTitle='Filter Table' />
 
       <main>
         <section>
@@ -35,12 +35,13 @@ export default function BasicTablePage() {
               Back
             </ArrowLink>
 
-            <h1 className='mt-4'>Basic Table</h1>
+            <h1 className='mt-4'>Filter Table</h1>
 
             <Table
               columns={columns}
               data={students}
               className='mt-8'
+              withFilter
               omitSort
             />
           </div>
