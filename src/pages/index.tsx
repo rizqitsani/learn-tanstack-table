@@ -15,9 +15,14 @@ export default function HomePage() {
           <div className='layout flex min-h-screen flex-col items-center justify-center text-center'>
             <h1 className='mt-4'>Tanstack Table Examples</h1>
 
-            <ButtonLink className='mt-6' href='/basic' variant='light'>
-              Basic
-            </ButtonLink>
+            <div className='mt-6 flex flex-col space-y-3'>
+              <ButtonLink href='/basic' variant='light'>
+                Basic
+              </ButtonLink>
+              <ButtonLink href='/sorting' variant='light'>
+                Sorting
+              </ButtonLink>
+            </div>
 
             <footer className='absolute bottom-2 text-gray-700'>
               © {new Date().getFullYear()} By{' '}
