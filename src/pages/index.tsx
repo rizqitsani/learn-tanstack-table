@@ -29,6 +29,9 @@ export default function HomePage() {
               <ButtonLink href='/pagination' variant='light'>
                 Pagination
               </ButtonLink>
+              <ButtonLink href='/server' variant='light'>
+                Server
+              </ButtonLink>
             </div>
 
             <footer className='absolute bottom-2 text-gray-700'>
